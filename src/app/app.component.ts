@@ -1,11 +1,10 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Component, ElementRef, HostListener, Inject, PLATFORM_ID, ViewChild } from '@angular/core';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CarouselModule],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
